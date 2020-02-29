@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "home页",
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "brands": "/pages/home/barnd/index"
+  }
+}

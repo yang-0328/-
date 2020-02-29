@@ -1,0 +1,213 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.home-main.data-v-78a7abc9 {
+  width: 750rpx;
+  background-color: #F1ECE7;
+}
+.home-main .title.data-v-78a7abc9 {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+.home-main .title .nav-item.data-v-78a7abc9 {
+      font-size: 32rpx;
+      color: #FFFFFF;
+      letter-spacing: 2.29rpx;
+      margin: 0 20rpx;
+      padding-bottom: 12rpx;
+      line-height: 45rpx;
+}
+.home-main .title .nav-item.active.data-v-78a7abc9 {
+        border-bottom: 2px solid #fff;
+}
+.home-main .icon.data-v-78a7abc9 {
+    width: 42rpx;
+    height: 42rpx;
+}
+.home-main .icon.icon-chat.data-v-78a7abc9 {
+      margin-left: 30rpx;
+}
+.home-main .icon.icon-search.data-v-78a7abc9 {
+      margin-right: 20rpx;
+}
+.home-main .icon.icon-cart.data-v-78a7abc9 {
+      margin-right: 10rpx;
+}
+.home-main .section-home.data-v-78a7abc9 {
+    height: 1170rpx;
+    width: 100%;
+    background-color: #F1ECE7;
+}
+.home-main .section-home .section-banner.data-v-78a7abc9 {
+      width: 750rpx;
+}
+.home-main .section-home .section-banner .swiper-banner.data-v-78a7abc9 {
+        width: 100%;
+        height: 360rpx;
+}
+.home-main .section-home .section-banner .swiper-banner .swiper-item.data-v-78a7abc9 {
+          width: 750rpx;
+          height: 100%;
+}
+.home-main .section-home .img.data-v-78a7abc9 {
+      margin: 0 auto;
+      width: 750rpx;
+      height: 362rpx;
+}
+.home-main .section-home .recommended.data-v-78a7abc9 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      padding-top: 30rpx;
+}
+.home-main .section-home .recommended .p1.data-v-78a7abc9 {
+        font-size: 32rpx;
+        color: #3E3E3E;
+        letter-spacing: 2.29rpx;
+        margin-left: 40rpx;
+}
+.home-main .section-home .recommended .more.data-v-78a7abc9 {
+        width: 90rpx;
+        font-size: 26rpx;
+        color: #8C8C8C;
+        letter-spacing: 1.86rpx;
+        padding-left: 450rpx;
+}
+.home-main .section-home .sofa.data-v-78a7abc9 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: space-around;
+      justify-content: space-around;
+      margin-top: 39rpx;
+}
+.home-main .section-home .sofa .back.data-v-78a7abc9 {
+        width: 208rpx;
+        height: 140rpx;
+        background-color: #FFFFFF;
+}
+.home-main .section-home .sofa .back .imgs.data-v-78a7abc9 {
+          padding-top: 52rpx;
+          width: 144rpx;
+          height: 124rpx;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+}
+.home-main .section-home .sofa .back .Chinese.data-v-78a7abc9 {
+          width: 126rpx;
+          font-size: 26rpx;
+          padding-top: 40rpx;
+          color: #3E3E3E;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          letter-spacing: 1.86rpx;
+}
+.home-main .section-home .sofa .back .English.data-v-78a7abc9 {
+          width: 128rpx;
+          font-size: 20rpx;
+          color: #B0B0B0;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          letter-spacing: 1.43rpx;
+}
+.home-main .section-home .recommended.s.data-v-78a7abc9 {
+      padding-top: 180rpx;
+}
+.home-main .section-home .shufflings.s .swiper-banners.s .swipr-items.s.data-v-78a7abc9 {
+      width: 590rpx;
+      height: 260rpx;
+      background: #FFFFFF;
+      box-shadow: 0 16px 48px 0 rgba(122, 98, 75, 0.12);
+      border-radius: 20px;
+      border-radius: 20px;
+      margin: 0 auto;
+      margin-top: 50rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+}
+.home-main .section-home .shufflings.s .swiper-banners.s .swipr-items.s .img.s.data-v-78a7abc9 {
+        width: 194rpx;
+        height: 280rpx;
+        margin-left: 44rpx;
+}
+.home-main .section-home .shufflings.s .swiper-banners.s .swipr-items.s .commodity.data-v-78a7abc9 {
+        margin-top: 50rpx;
+        margin-right: 30rpx;
+}
+.home-main .section-home .shufflings.s .swiper-banners.s .swipr-items.s .commodity .name.data-v-78a7abc9 {
+          font-size: 26rpx;
+          color: #3E3E3E;
+          letter-spacing: 1.86rpx;
+}
+.home-main .section-home .shufflings.s .swiper-banners.s .swipr-items.s .commodity .ten.data-v-78a7abc9 {
+          font-size: 18rpx;
+          color: #B0B0B0;
+          letter-spacing: 1.29rpx;
+}
+.home-main .section-home .shufflings.s .swiper-banners.s .swipr-items.s .commodity .dot.data-v-78a7abc9 {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          margin-top: 19rpx;
+}
+.home-main .section-home .shufflings.s .swiper-banners.s .swipr-items.s .commodity .dot .dot1.data-v-78a7abc9 {
+            width: 20rpx;
+            height: 20rpx;
+            border-radius: 50%;
+            background-color: #446675;
+}
+.home-main .section-home .shufflings.s .swiper-banners.s .swipr-items.s .commodity .dot .dot2.data-v-78a7abc9 {
+            width: 20rpx;
+            height: 20rpx;
+            border-radius: 50%;
+            background-color: #6A4826;
+            margin: 0 10rpx;
+}
+.home-main .section-home .shufflings.s .swiper-banners.s .swipr-items.s .commodity .dot .dot3.data-v-78a7abc9 {
+            width: 20rpx;
+            height: 20rpx;
+            border-radius: 50%;
+            background-color: #E7D8BB;
+}
+.home-main .section-home .shufflings.s .swiper-banners.s .swipr-items.s .commodity .instructions.data-v-78a7abc9 {
+          margin-top: 28rpx;
+          font-size: 22rpx;
+          color: #3E3E3E;
+          letter-spacing: 1.57rpx;
+}
+

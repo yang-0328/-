@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/kind/index",
+    "pages/find/index",
+    "pages/mine/index",
+    "pages/home/barnd/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#979797",
+    "selectedColor": "#435950",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/assets/shouye.png",
+        "selectedIconPath": "static/assets/shoye1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/kind/index",
+        "iconPath": "static/assets/fenlei.png",
+        "selectedIconPath": "static/assets/fenlei1.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/find/index",
+        "iconPath": "static/assets/faxian.png",
+        "selectedIconPath": "static/assets/faxian1.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/assets/wode1.png",
+        "selectedIconPath": "static/assets/wode.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}
